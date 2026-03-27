@@ -19,7 +19,12 @@ const learning = () => {
   console.log("Learning Git");
 };
 
+const canDrive = () => {
+  return age >= 18 ? "can Drive" : "can't drive";
+};
+
 greeting();
 details();
 console.log(sum(5, 8));
 learning();
+console.log(`${name} is age of ${age} can drive ? : ${canDrive()}`);
