@@ -11,4 +11,10 @@ const details = () => {
   console.log(`name is ${name}\nage is ${age}\ngender is ${gender}`);
 };
 
+const sum = (a, b) => {
+  return a + b;
+};
+
 greeting();
+details();
+console.log(sum(5, 8));
