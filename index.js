@@ -30,7 +30,7 @@ learning();
 console.log(`${name} is age of ${age} can drive ? : ${canDrive()}`);
 
 function hello() {
-  return "hello";
+  return `hello ${name}`;
 }
 
 console.log(hello());
