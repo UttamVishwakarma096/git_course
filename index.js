@@ -28,3 +28,9 @@ details();
 console.log(sum(5, 8));
 learning();
 console.log(`${name} is age of ${age} can drive ? : ${canDrive()}`);
+
+function hello() {
+  return "hello";
+}
+
+console.log(hello());
