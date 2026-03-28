@@ -42,4 +42,9 @@ function newFeatureB() {
   console.log("new feature created in feature branch");
   console.log("new feature created in feature branch B");
 }
+
+function newFeatureC() {
+  console.log("new feature created in feature branch");
+  console.log("new feature created in feature branch C");
+}
 console.log(hello());
