@@ -33,4 +33,7 @@ function hello() {
   return `hello ${name}`;
 }
 
+function newFeature() {
+  console.log("new feature created in feature branch");
+}
 console.log(hello());
