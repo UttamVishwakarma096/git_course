@@ -35,5 +35,6 @@ function hello() {
 
 function newFeature() {
   console.log("new feature created in feature branch");
+  console.log("new feature created in feature branch A");
 }
 console.log(hello());
